@@ -2,7 +2,7 @@
   "name": "app-info-parser",
   "version": "0.3.10",
   "description": "Exact info from apk or ipa file.",
-  "main": "./src/index.js",
+  "main": "./lib/apk.js",
   "scripts": {
     "test": "node ./example/node.js",
     "build": "rimraf src/* && babel lib -d src",
